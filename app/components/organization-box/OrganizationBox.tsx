@@ -56,7 +56,7 @@ const OrganizationBox: FC = () => {
           >
             <Image
               alt='facility photo'
-              src={ '/example.jpg' }
+              src={ 'AquaReg-test-task/public/images/example.jpg' }
               layout='fill'
             />
           </Box>
