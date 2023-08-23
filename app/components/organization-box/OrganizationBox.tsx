@@ -56,7 +56,7 @@ const OrganizationBox: FC = () => {
           >
             <Image
               alt='facility photo'
-              src={ '/images/example.jpg' }
+              src={ 'app/public/images/example.jpg' }
               layout='fill'
             />
           </Box>
