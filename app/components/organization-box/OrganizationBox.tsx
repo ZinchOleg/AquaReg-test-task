@@ -9,6 +9,7 @@ import StructuresData from './structures-data';
 import { useAppSelector } from '@hooks/redux';
 import { selectorStructuresDataTanksInfo } from '@Redux/structures-data/structuresDataSelectors';
 import { selectorFacilityData } from '@Redux/facility-data/facilityDataSelectors';
+import profilePic from '../../public/images/example.jpg';
 
 
 const OrganizationBox: FC = () => {
@@ -56,7 +57,7 @@ const OrganizationBox: FC = () => {
           >
             <Image
               alt='facility photo'
-              src={ '/public/images/example.jpg' }
+              src={ profilePic }
               layout='fill'
             />
           </Box>
