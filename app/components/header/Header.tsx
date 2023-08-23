@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <Center bg='blue.400' h='60px' color='white' width='100%'>
         <Text fontSize='x-large' fontWeight='500'>
-          test
+          AquaReg
         </Text>
       </Center>
     </header>
