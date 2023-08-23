@@ -9,7 +9,7 @@ import StructuresData from './structures-data';
 import { useAppSelector } from '@hooks/redux';
 import { selectorStructuresDataTanksInfo } from '@Redux/structures-data/structuresDataSelectors';
 import { selectorFacilityData } from '@Redux/facility-data/facilityDataSelectors';
-import profilePic from '../../public/images/example.jpg';
+import profilePic from '../../../public/images/example.jpg';
 
 
 const OrganizationBox: FC = () => {
