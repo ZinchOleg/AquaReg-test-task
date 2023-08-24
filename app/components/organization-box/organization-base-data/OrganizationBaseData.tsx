@@ -12,7 +12,7 @@ interface IOrganizationBaseData {
   phoneNumber: string;
 }
 
-const OrganizationBaseData: FC<IOrganizationBaseData> = ({ 
+const OrganizationBaseData: FC<IOrganizationBaseData> = ({
   companyOwner,
   linkedNumberOfFacilities,
   ownerType,
@@ -29,13 +29,16 @@ const OrganizationBaseData: FC<IOrganizationBaseData> = ({
       color='gray.600'
       fontWeight={ 600 }
     >
-      <Heading
-        as='h2'
-        size='xl'
-        fontWeight={ 500 }
-      >
-        Organization info
-      </Heading>
+      <Box mb={ '10px' }>
+        <Heading
+            as='h2'
+            size='xl'
+            fontWeight={ 500 }
+        >
+          Organization info
+        </Heading>
+      </Box>
+
       <Box>
         <Text>Company owner: { companyOwner }</Text>
         <Text>Owner type: { ownerType || ifNotSpecified }</Text>

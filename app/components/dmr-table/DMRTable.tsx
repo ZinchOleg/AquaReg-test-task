@@ -11,7 +11,7 @@ const DMRTable: FC = () => {
   const dmrData = useAppSelector(selectorDMRDataArray);
 
   if(dmrData.length < 0) {
-    return null; 
+    return null;
   }
 
   return (
@@ -35,12 +35,12 @@ const DMRTable: FC = () => {
             <Table size={ 'lg' } padding={ 0 }>
               <Thead>
                 <Tr fontSize={ 'lg' }>
-                  <Th isNumeric>Limit value</Th>
-                  <Th isNumeric>Reported value</Th>
-                  <Th isNumeric>Reported Date</Th>
-                  <Th isNumeric>Unit</Th>
-                  <Th isNumeric>Violation</Th>
-                  <Th isNumeric>Notes</Th>
+                  <Th textAlign={ 'center' }>Limit value</Th>
+                  <Th textAlign={ 'center' }>Reported value</Th>
+                  <Th textAlign={ 'center' }>Reported Date</Th>
+                  <Th textAlign={ 'center' }>Unit</Th>
+                  <Th textAlign={ 'center' }>Violation</Th>
+                  <Th textAlign={ 'center' }>Notes</Th>
                 </Tr>
               </Thead>
               <Tbody>

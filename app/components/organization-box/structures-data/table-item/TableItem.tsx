@@ -18,11 +18,11 @@ const TableItem: FC<ITableItem> = ({
 }) => {
   return (
     <Tr fontSize={ 'x-small' }>
-      <Td isNumeric>{ numberOfSettingTank }</Td>
-      <Td isNumeric>{ settingTankArea }</Td>
-      <Td isNumeric>{ numberOfProcessTanks }</Td>
-      <Td isNumeric>{ processTankArea }</Td>
-      <Td isNumeric>{ coolingTowers }</Td>
+      <Td textAlign={ 'center' } verticalAlign={ 'middle' }>{ numberOfSettingTank }</Td>
+      <Td textAlign={ 'center' } verticalAlign={ 'middle' }>{ settingTankArea }</Td>
+      <Td textAlign={ 'center' } verticalAlign={ 'middle' }>{ numberOfProcessTanks }</Td>
+      <Td textAlign={ 'center' } verticalAlign={ 'middle' }>{ processTankArea }</Td>
+      <Td textAlign={ 'center' } verticalAlign={ 'middle' }>{ coolingTowers }</Td>
   </Tr>
   );
 };

@@ -34,15 +34,17 @@ const OrganizationBox: FC = () => {
               street={ facilityData.street }
               zip={ facilityData.zip }
             />
-            <OrganizationBaseData
-              companyOwner='South Yard'
-              linkedNumberOfFacilities={ 1 }
-              ownerType='Privately Owned Facility'
-              phoneNumber='(999) 123 1234'
-              tankArea={ 100 }
-              websiteLink={ 'https://name@example.com' }
-            />
-            <Box mt='10px'>
+            <Box mt='25px'>
+              <OrganizationBaseData
+                  companyOwner='South Yard'
+                  linkedNumberOfFacilities={ 1 }
+                  ownerType='Privately Owned Facility'
+                  phoneNumber='(999) 123 1234'
+                  tankArea={ 100 }
+                  websiteLink={ 'https://name@example.com' }
+              />
+            </Box>
+            <Box mt='25px'>
               <StructuresData
                 tanksInfo={ tanksInfo }
               />
@@ -58,7 +60,11 @@ const OrganizationBox: FC = () => {
             <Image
               alt='facility photo'
               src={ profilePic }
-              layout='fill'
+              style={{
+                width: '100%',
+                height: '100%',
+              }}
+              priority={ true }
             />
           </Box>
         </Flex>

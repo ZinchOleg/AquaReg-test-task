@@ -19,12 +19,12 @@ const TableItem: FC<ITableItem> = ({
 }) => {
   return (
     <Tr fontSize={ 'md' }>
-      <Td isNumeric>{ limit_value_nmbr }</Td>
-      <Td isNumeric>{ reported_value }</Td>
-      <Td isNumeric>{ reported_date }</Td>
-      <Td isNumeric>{ unit }</Td>
-      <Td isNumeric>{ past_six_month_violation }</Td>
-      <Td isNumeric>{ notes }</Td>
+      <Td textAlign={ 'center' } verticalAlign={ 'middle' }>{ limit_value_nmbr }</Td>
+      <Td textAlign={ 'center' } verticalAlign={ 'middle' }>{ reported_value }</Td>
+      <Td textAlign={ 'center' } verticalAlign={ 'middle' }>{ reported_date }</Td>
+      <Td textAlign={ 'center' } verticalAlign={ 'middle' }>{ unit }</Td>
+      <Td textAlign={ 'center' } verticalAlign={ 'middle' }>{ past_six_month_violation }</Td>
+      <Td textAlign={ 'center' } verticalAlign={ 'middle' }>{ notes }</Td>
   </Tr>
   );
 };
