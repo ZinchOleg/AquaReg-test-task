@@ -60,10 +60,10 @@ const OrganizationBox: FC = () => {
             <Image
               alt='facility photo'
               src={ profilePic }
-              style={{
+              style={ {
                 width: '100%',
                 height: '100%',
-              }}
+              } }
               priority={ true }
             />
           </Box>
